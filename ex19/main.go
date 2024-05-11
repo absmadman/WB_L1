@@ -16,6 +16,8 @@ func reverseString(str string) string {
 }
 
 func main() {
-	str := "㆒㆓㆔"
+	//str := "㆒㆓㆔"
+	str := ""
+	fmt.Scan(&str)
 	fmt.Println(reverseString(str))
 }
